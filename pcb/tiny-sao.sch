@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:tiny-sao-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -26,11 +26,11 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microc
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Counter_Clockwise J1
+L Connector_Generic:Conn_02x02_Top_Bottom J1
 U 1 1 5C488EC3
 P 7150 3600
 F 0 "J1" H 7200 3817 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 7200 3726 50  0000 C CNN
+F 1 "Male_02x02" H 7200 3726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7150 3600 50  0001 C CNN
 F 3 "~" H 7150 3600 50  0001 C CNN
 	1    7150 3600
