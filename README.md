@@ -1,6 +1,8 @@
-# Minimal ShittyAddon with Capture The Flag Challenge
+# Minimal Shitty Add-On with Capture The Flag Challenge
 
 Copyright (C) 2019, Uri Shaked. Released under the MIT license.
+
+[__Learn more in the blog post: Capture The Flag Shitty Add-On__](https://blog.wokwi.com/capture-the-flag-shitty-add-on/?utm_source=github)
 
 ## Hardware
 
@@ -10,6 +12,12 @@ The [ctf-shittyaddon board](pcb/) includes the following hardware:
 2. A [ShittyAddon V1](https://twitter.com/MrRobotBadge/status/962043056781324289) connector 
 3. Reset button
 4. Red LED connected to ATtiny85's pin 6 (PB1)
+
+<img src="https://blog.wokwi.com/content/images/2019/10/image-6.png" alt="Tiny CTF PCB" width="600" />
+
+You can also hack a simplified version on a breadboard:
+
+![Arduino Connection Diagram](https://blog.wokwi.com/content/images/2019/10/image-9.png)
 
 ## Firmware
 
@@ -43,3 +51,5 @@ The challenge consists of several milestones of increasing difficulty:
 
 All the above milestones can be achieved through I2C communication with
 the chip.
+
+For more information, [check out the blog post](https://blog.wokwi.com/capture-the-flag-shitty-add-on/?utm_source=github)
