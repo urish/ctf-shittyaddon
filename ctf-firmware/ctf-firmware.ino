@@ -53,7 +53,7 @@ void onI2CReceive(int cnt) {
 
 void onI2CRequest() {
   TinyWire.send(target);
-  uint8_t* addr = (target++) & 0x1fff;
+  uint8_t* addr = (uint8_t*)((target++) & 0x1fff);
   TinyWire.send((target & 0x8000) ? pgm_read_byte(addr): *addr);
 }
   
